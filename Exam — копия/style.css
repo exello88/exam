@@ -1,0 +1,146 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 648px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+h2{
+  font-size: x-large;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.product,
+.product * {
+  /* border: 1px solid green; */
+  display: inline-block;
+}
+
+.product {
+  margin: 30px 0;
+}
+
+.product ul {
+  margin-left: 15px;
+}
+
+.product ul a {
+  background-color: #eff3f6;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.product ul a:focus {
+  background-color: #08a652;
+  /* background-color: limegreen; */
+}
+.calcs .left,
+.calcs .right {
+  /* border: 1px solid green; */
+  display: inline-block;
+  vertical-align: top;
+}
+.calcs .item-progress {
+  /* border: 1px solid red; */
+}
+.calcs .item-progress label {
+  font-size: smaller;
+  display: block;
+}
+
+.calcs .left{
+  width: 59%;
+}
+
+.calcs .right{
+  padding-left: 60px;
+  width: 39%;
+}
+
+.calcs .item-progress input {
+  display: block;
+width: 100%;
+margin-top: 5px;
+padding: 15px;
+border: 1px solid #eee;
+border-radius: 3px;
+font-weight: bold;
+color: #666;
+}
+
+
+.calcs .item-progress input:hover {
+  border-color: #000;
+}
+.calcs .item-progress input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.calcs .item-progress input[type="range"]{
+  margin-top: -24px;
+  margin-bottom: -10px;
+}
+.calcs .item-progress small{
+  font-size: smaller;
+  color: #777;
+}
+
+.calcs .item-progress small:last-child{
+  margin-left: 60%;
+}
+
+.calcs .item-checked{
+  margin: 20px 0;
+}
+.calcs .item-checked label{
+  margin-left: 5px;
+}
+
+.calcs .oferta{
+  font-size: smaller;
+}
+
+
+.right .righttext label:nth-child(even){
+  display: block;
+  margin: 5px 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #444;
+}
+
+.rightbutton a:first-child{
+  background-color: #000;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 50px; 
+  border-radius: 4px;
+}
+
+.rightbutton a:last-child{
+  color: #888;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.rightbutton a:last-child:hover{
+  color: #777;
+}
+

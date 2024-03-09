@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>Калькулятор</h2>
+
+    <div class="product">
+      <label>Выберите продукт:</label>
+      <ul>
+        <li><a href="#" tabindex="1">Кредит</a></li>
+        <li><a href="#" tabindex="2">Вклад</a></li>
+        <li><a href="#" tabindex="3">Облигации</a></li>
+      </ul>
+    </div>
+    <form class="calcs">
+      <div class="left">
+        <div class="item-progress">
+          <label for="">Сколько вам нужно</label>
+          <input type="number" name="money" value="300000" />
+          <input class="top" type="range" value="300000" max="5000000" min="30000" />
+          <small class="sm-left">от 30 000 ₽</small>
+          <small class="sm-right">до 5 000 000 ₽</small>
+        </div>
+
+        <div class="item-progress">
+          <label for="">Срок кредита</label>
+          <input type="text" name="months" value="11 месяцев" />
+          <input class="bottom" type="range" value="11" max="60" min="3" />
+          <small class="sm-left">от 3 месяца</small>
+          <small class="sm-right">до 5 лет</small>
+        </div>
+
+        <div class="item-checked">
+          <input type="checkbox" name="salary" checked id="salary" />
+          <label for="salary">
+            Получаю зарплату или пенсию в СберБанке
+          </label>
+        </div>
+
+        <small class="oferta">Предварительный расчет. Не является публичной офертой</small>
+      </div>
+
+      <div class="right">
+        <div class="righttext">
+          <label for="">Ежемесячный платеж</label>
+          <label class="pay" for="">0Р</label>
+          <label for="">Ставка</label>
+          <label class="proc" for="">0%</label>
+        </div>
+        <div class="rightbutton">
+          <a href="#">Подать заявку</a>
+          <a href="#">Подробнее &rsaquo; </a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src='./index.js'></script>
+</body>
+
+</html>
